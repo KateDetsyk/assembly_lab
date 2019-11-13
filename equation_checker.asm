@@ -15,7 +15,7 @@ top:
    div  bl
 
    cmp ah, 0
-   jpe addone
+   je addone
 
    mov ebx, 0
 
